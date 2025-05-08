@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email Reminder", "Email Reminder\Email Reminder.csproj", "{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9BF59B52-1548-4CE8-9B5D-4C7A44639E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E367523E-0A12-428E-AFF4-B3EE07F6BC95}
+	EndGlobalSection
+EndGlobal

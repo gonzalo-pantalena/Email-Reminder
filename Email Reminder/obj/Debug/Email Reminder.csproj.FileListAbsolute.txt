@@ -1,0 +1,11 @@
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\obj\Debug\Email Reminder.csproj.AssemblyReference.cache
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\obj\Debug\Email Reminder.csproj.SuggestedBindingRedirects.cache
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\obj\Debug\Email_Reminder.Properties.Resources.resources
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\obj\Debug\Email Reminder.csproj.GenerateResource.cache
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\obj\Debug\Email Reminder.csproj.CoreCompileInputs.cache
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\bin\Debug\Email Reminder.exe.config
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\bin\Debug\Email Reminder.exe
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\bin\Debug\Email Reminder.pdb
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\obj\Debug\Email Reminder.exe
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\obj\Debug\Email Reminder.pdb
+C:\Users\GonzaloPantalena\source\repos\Email Reminder\Email Reminder\bin\Debug\ringbell.ico
