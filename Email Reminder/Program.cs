@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Media;
 using System.Windows.Forms;
 
 namespace Email_Reminder
@@ -36,7 +35,8 @@ namespace Email_Reminder
             private Panel contentPanel;
             private Icon icon = new Icon("ringbell.ico");
             private bool _isMouseDown;
-            private Point _mouseOffset;
+            private Point _mouseOffset; 
+            private SoundPlayer _simpleSound = new SoundPlayer("R2D2.wav");
 
             public object Process { get; private set; }
 
@@ -53,7 +53,7 @@ namespace Email_Reminder
             {
                 // Initialize timer
                 timer1 = new Timer();
-                timer1.Interval = 60000; // Check every minute
+                timer1.Interval = 5000; // Check every 5 seconds
                 timer1.Tick += timer1_Tick;
 
                 // Initialize label
@@ -283,7 +283,12 @@ namespace Email_Reminder
                 closeButton.FlatStyle = FlatStyle.Flat;
                 closeButton.FlatAppearance.BorderSize = 0;
                 closeButton.Dock = DockStyle.Fill;
-                closeButton.Click += (sender, args) => { modalForm.Close(); };
+                closeButton.Click += (sender, args) => { 
+                    modalForm.Close();
+                    _simpleSound.Stop();
+                };
+                
+                _simpleSound.Play();
 
                 tableLayout.Controls.Add(titleLabel, 0, 0);
                 tableLayout.Controls.Add(messageLabel, 0, 1);
