@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email Reminder", "Email Reminder\Email Reminder.csproj", "{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quick Alarm", "Quick Alarm\Quick Alarm.csproj", "{B7C2A1E4-3D5F-4A8B-9C6E-1F2D3E4B5C6D}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9BF59B52-1548-4CE8-9B5D-4C7A44639E6D}"
 EndProject
 Global
@@ -17,6 +19,10 @@ Global
 		{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADC65DFA-B38E-4A7D-B7F9-BB13F67E4ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C2A1E4-3D5F-4A8B-9C6E-1F2D3E4B5C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C2A1E4-3D5F-4A8B-9C6E-1F2D3E4B5C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C2A1E4-3D5F-4A8B-9C6E-1F2D3E4B5C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C2A1E4-3D5F-4A8B-9C6E-1F2D3E4B5C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
